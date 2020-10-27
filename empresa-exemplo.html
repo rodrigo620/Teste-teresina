@@ -20,10 +20,39 @@
                 <!-- Botões -->
                 <div class="col d-flex justify-content-end">
                     <button type="button" class="btn btn-primary pr-0"><font class="border-right pr-3">inicio</font></button>
-                    <button type="button" class="btn btn-primary">Contatos</button>
+                    <!-- Modal contatos -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Contatos
+                    </button>
                 </div>
             </div>
         </header>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+                <div class="modal-header bg-primary">
+                <h5 class="modal-title text-white" id="exampleModalLabel">Contatos</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 col-block">
+                                <h6>Telefone:</h6>
+                                <p>(89) 99432****</p>
+                            </div>
+                            <div class="col-md-6 col-block">
+                                <h6>Instagram:</h6>
+                                <a href="https://www.instagram.com/rodrigosilva.br/?hl=pt-br"><p>@rodrigosilva.br</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Sessão 01-->
     <div class="container-fluid">
@@ -40,15 +69,15 @@
                     <div class="carousel-inner bg-primary">
                         <!-- Imagem 01 -->
                       <div class="carousel-item active">
-                        <img class="d-block w-50 rounded mx-auto d-block" src="assets/imagens-site/desenhos/auto-retrato.jpg" class="rounded mx-auto d-block" alt="First slide">
+                        <img class="d-block w-50 rounded mx-auto img-fluid" src="assets/imagens-site/desenhos/auto-retrato.jpg" class="rounded mx-auto d-block" alt="1 slide">
                       </div>
                       <!-- Imagem 01 -->
                       <div class="carousel-item">
-                        <img class="d-block w-50 rounded mx-auto d-block" src="assets/imagens-site/desenhos/ohana.jpg" alt="Second slide">
+                        <img class="d-block w-50 rounded mx-auto img-fluid" src="assets/imagens-site/desenhos/ohana.jpg" alt="2 slide">
                       </div>
                       <!-- Imagem 01 -->
                       <div class="carousel-item">
-                        <img class="d-block w-50 rounded mx-auto d-block" src="assets/imagens-site/desenhos/stithi.jpg" alt="Third slide">
+                        <img class="d-block w-50 rounded mx-auto img-fluid" src="assets/imagens-site/desenhos/stithi.jpg" alt="3 slide">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
